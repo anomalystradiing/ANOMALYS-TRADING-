@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://anomalystradiing.github.io/ANOMALYS-TRADING-/sitemap.xml
