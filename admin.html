@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#090609">
+  <title>Administración | ANOMALYS TRADING</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-page">
+
+  <header class="header">
+    <a href="index.html" class="brand">
+      <span class="brand-icon">A</span>
+      <span>ANOMALYS <strong>TRADING</strong></span>
+    </a>
+    <a href="index.html">Volver a la página</a>
+  </header>
+
+  <main class="admin-container">
+    <section class="admin-login" id="login-section">
+      <p class="eyebrow">ACCESO RESTRINGIDO</p>
+      <h1>Panel de <span>administración</span></h1>
+      <p>Inicia sesión para gestionar el catálogo.</p>
+
+      <form id="login-form">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" required>
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" required>
+
+        <button type="submit" class="main-button">Iniciar sesión</button>
+      </form>
+
+      <p id="login-message"></p>
+    </section>
+
+    <section id="dashboard" hidden>
+      <h1>Panel de administración</h1>
+      <p>Bienvenido a ANOMALYS TRADING.</p>
+      <button id="logout-button" class="main-button">
+        Cerrar sesión
+      </button>
+      <div id="admin-content"></div>
+    </section>
+  </main>
+
+  <script type="module" src="admin.js"></script>
+</body>
+</html>
